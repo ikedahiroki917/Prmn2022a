@@ -51,6 +51,7 @@ public class Kadai_01 {
         System.out.println("最高点：" + h + "点");
         System.out.println("平均点：" + a + "点");
         System.out.println("");
+        System.out.println("");
     }
     static int min(int[] score){
         int min = 0;
