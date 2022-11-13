@@ -2,8 +2,12 @@ package lecture02;
 
 public class Car {
     int fuel;
-    Car(){
+    Tire[] tires;
+    Engine engine;
+    Car(Tire[] tires,Engine engine){
         this.fuel = 0;
+        this.tires = tires;
+        this.engine = engine;
     }
     void run(){
         if(this.fuel > 0){
@@ -12,5 +16,8 @@ public class Car {
         }else{
             System.out.println("燃料がありません。");
         }
+    }
+    void startEngine(){
+        engine.start();
     }
 }
