@@ -1,3 +1,5 @@
+package lecture01;
+
 public class Kadai_01 {
     public static void main(String[] args) {
 
